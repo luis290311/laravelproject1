@@ -57,11 +57,11 @@
 								<th></th>
 								<th></th>
 								<th></th>
-								<th><h4 id="total">{{$venta->total_venta}}/h4></th>
+								<th><h4 id="total">{{$venta->total_venta}}</h4></th>
 							
 							</tfoot>
 							<tbody>
-								@foreach($detalles as det)
+								@foreach($detalles as $det)
 								<tr>
 									<td>{{$det->articulo}}</td>
 									<td>{{$det->cantidad}}</td>
